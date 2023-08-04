@@ -24,14 +24,14 @@
   <section id="home">
     <div class="container">
       <h1>Welcome to My Website</h1>
-      <p>This Website is about me 2.</p>
+      <p>This Website is about me </p>
     </div>
   </section>
 
   <section id="about">
     <div class="container">
       <h2>About Me</h2>
-      <p>I am Gowrishankar S and currently studying B.Tech in Artficial intaligence and Data Science in Kumaraguru College ofTechnology in coimbatore.And I am completed mydiplamo in computer enginnering in Sri Ramakrishana Poloytechnic College..</p>
+      <p>I am Gowrishankar S and currently studying B.Tech in Artficial intaligence and Data Science in Kumaraguru College of Technology in coimbatore.And I am completed my diplamo in computer enginnering in Sri Ramakrishana Poloytechnic College.</p>
     </div>
   </section>
 
@@ -48,17 +48,33 @@
       <h2>Picture</h2>
       <img src="WhatsApp Image 2023-05-30 at 7.29.13 PM.jpeg" alt="Your Picture">
     </div>
-
-    <div class="gird-container1">
-      <div class="gird-item">HELLO</div>
-      <div class="gird-item">GO BACK</div>
-
-    </div>
 </section>
-
+<center>
+<button onclick="myfunction()">SSLC</button>
+<b>
+  <div>
+<button onclick="myfunction1()">diplamo</button>
+</br>
+</div>
+<p id="demo"></p>
+<p id1="demo"></p>
+<script>
+  function myfunction(){
+    document.getElementById("demo").innerHTML = "88%";
+    
+    }
+    function myfunction1(){
+    document.getElementById("demo").innerHTML = "78%";
+    }
+    </script>
+    </center>
+<br>
+<div>
   <footer>
     <p>&copy; 2023 Gowrishankar</p>
   </footer>
+</div>
+</br>
   <style>
  {
     margin: 0;
@@ -138,6 +154,12 @@ body {
     font-size: medium;
     padding: 2px;
     grid-template-columns: auto auto auto;
+    }
+    button{
+      color: rgb(17, 17, 17);
+      border: #8b8787;
+      text-align: center;
+      background-position-x: 2rem;
     }
 </style>
 </body>
